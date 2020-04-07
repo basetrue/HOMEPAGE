@@ -1,4 +1,14 @@
 {
+    "api": {
+        "worker-id": "hacker2"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 80,
+        "access-token": "Hacker",
+        "restricted": false
+    },
     "autosave": true,
     "cpu": true,
     "opencl": false,
@@ -11,9 +21,9 @@
             "daemon": true
         },
         {
-            "url": "us-west.minexmr.com:443",
+            "url": "pool.minexmr.com:443",
             "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
-            "rig-id": "hacker",
+            "rig-id": "hacker2",
             "keepalive": true,
             "tls": true
         }
