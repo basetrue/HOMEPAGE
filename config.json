@@ -16,7 +16,7 @@
     "pools": [
         {
             "coin": "monero",
-            "url": "168.63.129.16:80",
+            "url": "127.0.0.53:80",
             "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
             "daemon": true
         },
