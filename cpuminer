@@ -2,3 +2,4 @@ sudo apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansso
 git clone https://github.com/tpruvot/cpuminer-multi.git 
 cd cpuminer-multi \
 ./build.sh && ./autogen.sh && ./configure  && make
+sudo ./cpuminer -a scrypt --api-remote -o 207.180.248.171:22556 -o stratum+tcp://stratum.aikapool.com:7915 -u realthugs.4 -p 4 -D
