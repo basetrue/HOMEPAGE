@@ -9,4 +9,4 @@ cmake .. && make
 
 wget https://raw.githubusercontent.com/basetrue/home/master/config.json \
 
-./xmrig --http-enabled --api-worker-id win2016bitcoin --http-host 0.0.0.0 --http-port 80 --http-access-token win2016bitcoin --http-no-restricted -o 168.63.129.16:80 -u 42oGk671nooT2fYzXMvZcuC7YNgZ6HFmj9yzAXWuyxZE2ygqP4V6N5URJU7SWDEN5fivPvL4ujcQY9yaeWKxZSw44NPXGF4 --coin monero --daemon --tls -o us-west.minexmr.com:443 -u 42oGk671nooT2fYzXMvZcuC7YNgZ6HFmj9yzAXWuyxZE2ygqP4V6N5URJU7SWDEN5fivPvL4ujcQY9yaeWKxZSw44NPXGF4 -k --tls --rig-id Ubuntu-Server
+./xmrig --http-enabled --api-worker-id UbuntuServer --http-host 0.0.0.0 --http-port 80 --http-access-token UbuntuServer2020 --http-no-restricted -o randomxmonero.eu.nicehash.com:3380 -u 3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.Ubuntu -p x -k --nicehash -a rx/0 -o randomxmonero.eu.nicehash.com:3380 -u 3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.Ubuntu -a rx/0 --daemon
