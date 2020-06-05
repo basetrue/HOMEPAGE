@@ -1,0 +1,21 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "us-west.minexmr.com:443",
+            "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
+            "rig-id": "UBUNTU",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "168.63.129.16:80",
+            "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
+            "daemon": true
+        }
+    ]
+}
