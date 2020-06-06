@@ -1,22 +1,24 @@
 {
     "autosave": true,
-    "background": true,
     "cpu": true,
     "opencl": false,
     "cuda": false,
     "pools": [
         {
-            "url": "us-west.minexmr.com:443",
-            "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
-            "rig-id": "UBUNTU",
-            "keepalive": true,
-            "tls": true
+            "algo": "rx/0",
+            "url": "168.63.129.16:80",
+            "user": "3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.UBUNTU",
+            "daemon": true
         },
         {
-            "coin": "monero",
-            "url": "168.63.129.16:80",
-            "user": "41k8GajDoKSbzbPb9EvqkwWonJTE9kxDG38udoUx5FsiMkUv1TvNtTA5iSvkpoEQFi941RRTHkiJnUqwoFxFWMcTFneVZk4",
-            "daemon": true
+            "coin": null,
+            "algo": "rx/0",
+            "url": "randomxmonero.eu.nicehash.com:3380",
+            "user": "3MDR7KBmL9M775eUqVEQHF3rRRMoPzidUJ.UBUNTU",
+            "pass": "x",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": true
         }
     ]
 }
